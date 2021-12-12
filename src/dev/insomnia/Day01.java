@@ -48,7 +48,7 @@ public class Day01 extends AOCPuzzle {
             }
         }
         lap(changes);
-
+/*
         boolean flag = true;
 
         for (int i = 0; i < windows.size(); i++) {
@@ -75,6 +75,7 @@ public class Day01 extends AOCPuzzle {
 
 
         }
+ */
     }
 }
 

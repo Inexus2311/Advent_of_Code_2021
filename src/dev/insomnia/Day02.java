@@ -23,6 +23,7 @@ public class Day02 extends AOCPuzzle {
                 case "down" -> depth += Integer.parseInt(list[1]);
             }
         }
+        lap(depth);
         lap(horizontal*depth);
     }
 
@@ -58,7 +59,7 @@ public class Day02 extends AOCPuzzle {
     void solve(List<String> input) {
 
         Task1(input);
-        Task2(input);
+       // Task2(input);
 
     }
 }
